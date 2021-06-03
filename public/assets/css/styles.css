@@ -1,0 +1,148 @@
+* {
+	font-family: "Poppins", sans-serif;
+}
+
+header {
+	background-image: linear-gradient(to top, #272640, #242a43, #212e46, #1e3148, #1c354a, #1a3a4e, #173f52, #154455, #0e4c5b, #045460, #005c64, #006466);
+}
+/* navbar */
+.nav-link a {
+	color: white;
+}
+.nav-link a:hover {
+	color: white;
+	font-weight: 600;
+	text-shadow: 0px 5px 10px rgba(255, 255, 255, 0.5);
+	text-transform: uppercase;
+}
+.btn.btn-outline-light {
+	color: white;
+	font-size: 1.2rem;
+	border-radius: 12px;
+}
+.btn.btn-outline-light:hover {
+	letter-spacing: 2px;
+	background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+	color: #212e46;
+}
+.btn.btn-info:hover {
+	border-radius: 20px;
+}
+.carousel-item img {
+	margin-top: -3rem;
+}
+.text-carousel {
+	text-align: center;
+}
+.text-carousel h5 {
+	font-family: "Train One", cursive;
+	font-size: 2rem;
+	color: white;
+	margin-top: 3rem;
+}
+
+.leading-relaxed {
+	line-height: 1.625;
+}
+
+/* product */
+.card {
+	border-radius: 20%;
+}
+.card-body h5 {
+	margin-top: -1.5rem;
+	margin-bottom: -0.1rem;
+	font-size: 1.5rem;
+	color: #212e46;
+}
+.head-product {
+	font-size: 2rem;
+}
+.card-body p {
+	font-size: 1.2rem;
+}
+
+/* Description */
+.description {
+	background-image: linear-gradient(to bottom, #272640, #242a43, #212e46, #1e3148, #1c354a, #1a3a4e, #173f52, #154455, #0e4c5b, #045460, #005c64, #006466);
+}
+.img-clip {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+}
+/* Footer */
+footer {
+	font-size: 16px;
+	background-color: #005c64;
+	color: white;
+	box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
+footer a:hover {
+	text-shadow: 0px 5px 10px rgba(255, 255, 255, 0.5);
+	color: white;
+}
+
+/* mobile */
+@media (min-width: 320px) {
+	.wave {
+		visibility: hidden;
+	}
+}
+/* desktop */
+@media (min-width: 992px) {
+	/* carousel */
+	.carousel {
+		margin-top: -2rem;
+	}
+	.carousel-item img {
+		position: relative;
+		width: 50%;
+		margin-top: -2rem;
+	}
+	.text-carousel {
+		position: relative;
+		top: 5rem;
+		bottom: 0;
+		margin-left: 5rem;
+	}
+	.text-carousel h5 {
+		font-family: "Train One", cursive;
+		margin-top: -4rem;
+		font-size: 8rem;
+		text-align: center;
+		color: whitesmoke;
+		filter: opacity(0.125);
+	}
+
+	h5.header1 {
+		position: relative;
+		top: 3rem;
+	}
+	h5.header2 {
+		position: relative;
+		top: 4rem;
+	}
+	h5.header3 {
+		position: relative;
+		top: 2.5rem;
+		left: 2rem;
+	}
+	.wave {
+		visibility: visible;
+	}
+	.description .wave {
+		margin-bottom: 0;
+		margin-top: -10rem;
+	}
+	.afiliated {
+		margin-top: -15rem;
+	}
+}

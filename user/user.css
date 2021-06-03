@@ -1,0 +1,43 @@
+* {
+	font-family: "Poppins", sans-serif;
+}
+body {
+	background-image: linear-gradient(to right top, #006466, #4d194d);
+}
+.tombol {
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+	background-color: rgba(0, 100, 102, 0.4);
+}
+
+nav,
+.card {
+	background: white;
+	background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+	backdrop-filter: blur(2rem);
+}
+
+.form-label {
+	color: #1b3a4b !important;
+}
+
+.form-control {
+	background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+	color: #212f45 !important;
+	border-radius: 20px;
+}
+.form-control:focus {
+	box-shadow: 0 0 0 0;
+	border: 3px solid #1b3a4b;
+}
+
+.btn.btn-primary {
+	background-color: #006466;
+	color: white;
+	border: 0;
+	border-radius: 20px;
+}
+.btn.btn-outline-primary:hover {
+	background-color: rgba(0, 100, 102, 0.4);
+	color: #065a60;
+}
